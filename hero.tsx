@@ -73,7 +73,7 @@ export function Hero() {
               Elem Mescouto
             </p>
             <p className="mt-1.5 text-[0.7rem] uppercase tracking-[0.2em] text-accent">
-              Mentora &amp; Educadora
+              Mentora Empresarial
             </p>
           </div>
         </div>
