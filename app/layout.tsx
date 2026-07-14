@@ -23,10 +23,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title:
-    'Elem Mescouto | Desenvolvimento Humano, Educação Corporativa e Gestão Estratégica',
+  title: 'Elem Mescouto | Mentoria em Gestão Estratégica Humanizada',
   description:
-    'Mentora, educadora e consultora especializada em desenvolvimento humano, liderança, educação corporativa e gestão estratégica.',
+    'Mentoria empresarial, liderança e desenvolvimento de equipes para empresas que buscam mais produtividade e resultados sustentáveis.',
   generator: 'v0.app',
   icons: {
     icon: [
