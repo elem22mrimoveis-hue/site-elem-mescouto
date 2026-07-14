@@ -63,9 +63,9 @@ export function Hero() {
         <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
           <div className="overflow-hidden rounded-sm border border-primary-foreground/15 shadow-2xl">
             <img
-              src="/elem-mescouto.jpeg"
+              src="/elem-mescouto-profissional.jpeg"
               alt="Foto oficial de Elem Mescouto"
-              className="aspect-[4/5] w-full object-cover object-top"
+              className="aspect-[4/5] w-full object-cover object-center"
             />
           </div>
           <div className="absolute -bottom-5 left-5 rounded-sm bg-card px-5 py-3 shadow-lg">
