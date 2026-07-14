@@ -14,16 +14,16 @@ export function Hero() {
       <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-6 pt-28 pb-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
         <div className="max-w-2xl">
           <p className="mb-6 text-xs uppercase tracking-[0.3em] text-accent">
-            Especialista em Desenvolvimento Humano
+            Mentoria em Gestão Estratégica Humanizada
           </p>
           <h1 className="text-balance font-serif text-4xl font-semibold leading-[1.1] text-primary-foreground sm:text-5xl md:text-6xl">
-            Transformando pessoas, líderes e organizações por meio da educação,
-            da aprendizagem e da gestão estratégica.
+            Desenvolvendo líderes e equipes para transformar desafios de gestão
+            em resultados sustentáveis.
           </h1>
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/75">
-            Desenvolvimento humano, educação corporativa, liderança e gestão
-            estratégica para empresas, gestores, instituições de ensino e
-            profissionais que desejam crescer com propósito e resultados.
+            Ajudo empresas e gestores a fortalecerem a liderança, aumentarem a
+            produtividade e desenvolverem pessoas através de uma gestão mais
+            humana, estratégica e orientada a resultados.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -44,9 +44,9 @@ export function Hero() {
 
           <dl className="mt-16 grid max-w-xl grid-cols-3 gap-6 border-t border-primary-foreground/15 pt-8">
             {[
-              { value: "+15", label: "Anos de experiência" },
-              { value: "+200", label: "Líderes desenvolvidos" },
-              { value: "+50", label: "Organizações atendidas" },
+              { value: "15+", label: "Anos dedicados à educação e gestão" },
+              { value: "7+", label: "Anos formando profissionais" },
+              { value: "3", label: "Especializações em gestão e pessoas" },
             ].map((stat) => (
               <div key={stat.label}>
                 <dt className="font-serif text-3xl font-semibold text-primary-foreground">
