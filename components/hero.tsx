@@ -1,0 +1,118 @@
+import { ArrowRight } from "lucide-react"
+
+export function Hero() {
+  return (
+    <section className="relative isolate flex min-h-screen items-center overflow-hidden">
+      <img
+        src="/hero-bg.png"
+        alt=""
+        aria-hidden="true"
+        className="absolute inset-0 -z-10 size-full object-cover"
+      />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-primary/98 via-primary/85 to-primary/60" />
+
+      <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-6 pt-24 sm:pt-28 lg:pt-32 pb-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
+        <div className="max-w-2xl">
+          <p className="mb-6 text-xs uppercase tracking-[0.3em] text-accent">
+            Especialista em Desenvolvimento Humano
+          </p>
+          <h1 className="text-balance font-serif text-4xl font-semibold leading-[1.1] text-primary-foreground sm:text-5xl md:text-6xl">
+            Transformando pessoas, líderes e organizações por meio da metodologia Ser, Pensar e Agir — unindo consciência, estratégia e execução para resultados reais.
+          </h1>
+          <p className="mt-6 text-xs uppercase tracking-[0.25em] text-primary-foreground/50">
+            Metodologia própria aplicada em educação, liderança e gestão estratégica
+          </p>
+
+          <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/75">
+            Desenvolvimento humano, educação corporativa, liderança e gestão
+            estratégica para empresas, gestores, instituições de ensino e
+            profissionais que desejam crescer com propósito e resultados.
+          </p>
+
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+            <a
+              href="#contato"
+              className="inline-flex items-center justify-center gap-2 rounded-sm bg-accent px-7 py-3.5 text-sm font-medium text-accent-foreground transition-opacity hover:opacity-90"
+            >
+              Agendar Conversa Estratégica gratuita
+              <ArrowRight className="size-4" />
+            </a>
+            <a
+              href="#sobre"
+              className="inline-flex items-center justify-center rounded-sm border border-primary-foreground/30 px-7 py-3.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-foreground/10"
+            >
+              Conhecer Minha História
+            </a>
+          </div>
+
+          <dl className="mt-16 grid max-w-xl grid-cols-3 gap-6 border-t border-primary-foreground/15 pt-8">
+            {[
+              { value: "+15", label: "anos formando líderes e educadores" },
+              { value: "+200", label: "líderes impactados diretamente" },
+              { value: "+50", label: "instituições e organizações atendidas" },
+            ].map((stat) => (
+              <div key={stat.label}>
+                <dt className="font-serif text-3xl font-semibold text-primary-foreground">
+                  {stat.value}
+                </dt>
+                <dd className="mt-1 text-xs leading-snug text-primary-foreground/60">
+                  {stat.label}
+                </dd>
+              </div>
+            ))}
+          </dl>
+
+          <div className="mt-8 grid gap-4 sm:grid-cols-3">
+            {[
+              {
+                title: "SER",
+                description:
+                  "Desenvolvimento de consciência, identidade e propósito para liderança.",
+              },
+              {
+                title: "PENSAR",
+                description:
+                  "Estratégia, tomada de decisão e visão sistêmica aplicada a negócios e gestão.",
+              },
+              {
+                title: "AGIR",
+                description:
+                  "Execução, liderança prática e transformação de resultados reais nas organizações.",
+              },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="rounded-sm border border-primary-foreground/15 bg-primary-foreground/5 p-4"
+              >
+                <p className="font-serif text-sm font-semibold text-accent">
+                  {item.title}
+                </p>
+                <p className="mt-2 text-xs leading-relaxed text-primary-foreground/70">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
+          <div className="overflow-hidden rounded-sm border border-primary-foreground/15 shadow-2xl">
+            <img
+              src="/elem-mescouto.jpeg"
+              alt="Foto oficial de Elem Mescouto"
+              className="aspect-[4/5] w-full object-cover object-top"
+            />
+          </div>
+          <div className="absolute -bottom-5 left-5 rounded-sm bg-card px-5 py-3 shadow-lg">
+            <p className="font-serif text-base font-semibold leading-none text-foreground">
+              Elem Mescouto
+            </p>
+            <p className="mt-1.5 text-[0.7rem] uppercase tracking-[0.2em] text-accent">
+              Mentora &amp; Educadora
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
