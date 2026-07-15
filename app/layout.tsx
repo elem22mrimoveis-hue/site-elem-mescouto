@@ -25,7 +25,22 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Elem Mescouto | Mentoria em Gestão Estratégica Humanizada',
   description:
-    'Mentoria empresarial, liderança e desenvolvimento de equipes para empresas que buscam mais produtividade e resultados sustentáveis.',
+    'Elem Mescouto oferece mentoria empresarial, liderança, desenvolvimento humano e gestão estratégica para empresas, líderes e profissionais que buscam crescimento sustentável.',
+  keywords: [
+    'Elem Mescouto',
+    'Mentoria empresarial',
+    'Gestão estratégica humanizada',
+    'Liderança',
+    'Gestão de pessoas',
+    'Desenvolvimento humano',
+    'Consultoria empresarial Natal RN',
+    'Mentoria empresarial Rio Grande do Norte',
+  ],
+  authors: [
+    {
+      name: 'Elem Mescouto',
+    },
+  ],
   generator: 'v0.app',
   icons: {
     icon: [
