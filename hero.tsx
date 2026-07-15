@@ -17,8 +17,7 @@ export function Hero() {
             Mentoria em Gestão Estratégica Humanizada
           </p>
           <h1 className="text-balance font-serif text-4xl font-semibold leading-[1.1] text-primary-foreground sm:text-5xl md:text-6xl">
-            Desenvolvendo líderes e equipes para transformar desafios de gestão
-            em resultados sustentáveis.
+            Desenvolvendo líderes e equipes para transformar desafios de gestão em resultados sustentáveis.
           </h1>
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/75">
             Ajudo empresas e gestores a fortalecerem a liderança, aumentarem a
