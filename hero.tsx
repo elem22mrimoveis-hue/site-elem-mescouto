@@ -64,7 +64,7 @@ export function Hero() {
             <img
               src="/elem-mescouto-profissional.jpeg"
               alt="Foto oficial de Elem Mescouto"
-              className="aspect-[4/5] w-full object-cover"
+              className="aspect-[4/5] w-full object-cover object-center"
               style={{ objectPosition: 'center' }}
             />
           </div>

@@ -14,13 +14,13 @@ export function Hero() {
       <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-6 pt-24 sm:pt-28 lg:pt-32 pb-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
         <div className="max-w-2xl">
           <p className="mb-6 text-xs uppercase tracking-[0.3em] text-accent">
-            Mentoria em Gestão Estratégica Humanizada
+            Especialista em Desenvolvimento Humano
           </p>
           <h1 className="text-balance font-serif text-4xl font-semibold leading-[1.1] text-primary-foreground sm:text-5xl md:text-6xl">
             Desenvolvendo líderes e equipes para transformar desafios de gestão em resultados sustentáveis.
           </h1>
           <p className="mt-6 text-xs uppercase tracking-[0.25em] text-primary-foreground/50">
-            Metodologia própria aplicada em educação, liderança e gestão estratégica
+            Mentoria em gestão estratégica humana com foco em pessoas e performance
           </p>
 
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/75">
@@ -98,9 +98,9 @@ export function Hero() {
         <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
           <div className="overflow-hidden rounded-sm border border-primary-foreground/15 shadow-2xl">
             <img
-              src="/elem-mescouto.jpeg"
+              src="/elem-mescouto-profissional.jpeg"
               alt="Foto oficial de Elem Mescouto"
-              className="aspect-[4/5] w-full object-cover object-top"
+              className="aspect-[4/5] w-full object-cover object-center"
             />
           </div>
           <div className="absolute -bottom-5 left-5 rounded-sm bg-card px-5 py-3 shadow-lg">

@@ -4,7 +4,7 @@ import { CtaSection } from "@/components/cta-section"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Blog | Elem Mescouto",
+  title: "Blog | Liderança, Gestão e Desenvolvimento Humano",
   description:
     "Artigos e reflexões sobre liderança, desenvolvimento humano, educação corporativa, carreira e gestão estratégica.",
 }
@@ -58,7 +58,7 @@ export default function BlogPage() {
     <main>
       <PageHero
         eyebrow="Blog"
-        title="Ideias para transformar pessoas, líderes e organizações."
+        title="Liderança, Gestão e Desenvolvimento Humano"
         description="Artigos e reflexões sobre liderança, desenvolvimento humano, educação corporativa, carreira e gestão estratégica."
       />
 
