@@ -1,6 +1,5 @@
 import type { Metadata } from "next"
 import { PageHero } from "@/components/page-hero"
-import { Testimonials } from "@/components/testimonials"
 import { CtaSection } from "@/components/cta-section"
 
 export const metadata: Metadata = {
@@ -89,7 +88,7 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      <Testimonials />
+      {/* Depoimentos serão publicados conforme autorização dos clientes. */}
       <CtaSection />
     </main>
   )
