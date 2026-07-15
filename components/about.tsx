@@ -14,7 +14,7 @@ export function About() {
         <div className="relative">
           <div className="overflow-hidden rounded-sm">
             <img
-              src="/elem-mescouto.jpeg"
+              src="/elem-mescouto.png"
               alt="Retrato de Elem Mescouto"
               className="aspect-[3/4] w-full object-cover object-top"
             />

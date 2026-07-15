@@ -62,7 +62,7 @@ export function Hero() {
         <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
           <div className="overflow-hidden rounded-sm border border-primary-foreground/15 shadow-2xl">
             <img
-              src="/elem-mescouto.jpeg"
+              src="/elem-mescouto.png"
               alt="Foto oficial de Elem Mescouto"
               className="aspect-[4/5] w-full object-cover object-center"
               style={{ objectPosition: 'center' }}

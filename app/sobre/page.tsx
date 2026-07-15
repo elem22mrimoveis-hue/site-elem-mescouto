@@ -50,7 +50,7 @@ export default function SobrePage() {
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 lg:grid-cols-2 lg:gap-16">
           <div className="overflow-hidden rounded-sm border border-border shadow-sm">
             <img
-              src="/elem-mescouto.jpeg"
+              src="/elem-mescouto.png"
               alt="Retrato de Elem Mescouto"
               className="aspect-[4/5] w-full object-cover object-top"
             />
